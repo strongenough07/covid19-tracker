@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-4">
     <select
       @change="onChange()"
       v-model="selected"
