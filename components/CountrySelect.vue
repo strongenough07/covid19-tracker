@@ -1,6 +1,7 @@
 <template>
-  <div class="mb-4">
+  <div ">
     <select
+      class="mb-4
       @change="onChange()"
       v-model="selected"
       class="form-select mt-10 block w-full border p-3 rounded"
